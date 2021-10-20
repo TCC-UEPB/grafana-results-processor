@@ -4,22 +4,21 @@ import json
 import processor
 
 mem_list = []
-number_test_cases = 1
-execution_dates = ['0', '1', '2', '3', '4', '5', '2021-10-13']
+number_test_cases = 3
+execution_dates = ["2021-10-06", "2021-10-18", "2021-10-19", "3", "4", "5", "2021-10-13"]
 
 for i in range(number_test_cases):
-    memory = pd.read_excel("memory-data/Memory-Usage-T6.xlsx")
-    cpu = pd.read_excel("cpu-data/CPU-Usage-T6.xlsx")
+    memory = pd.read_excel(f"memory-data/Memory-Usage-T{i}.xlsx")
+    cpu = pd.read_excel(f"cpu-data/CPU-Usage-T{i}.xlsx")
 
-    # execution_date = execution_date[i]
-    execution_date = "2021-10-13"
-
-    with open('test-times/t6.json') as json_file:
+    with open(f"test-times/t{i}.json") as json_file:
         times_of_test = json.load(json_file)
         json_file.close()
+
+    execution_date = execution_dates[i]
 
     mem_list.append(processor.process(
         memory, cpu, execution_date, times_of_test))
 
     df = pd.DataFrame(mem_list[i])
-    df.to_csv(f'results/test{i}.csv', index=False)
+    df.to_csv(f"results/test{i}.csv", index=False)
