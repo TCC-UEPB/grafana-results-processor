@@ -2,8 +2,8 @@ import pandas as pd
 import utils.date_time
 import utils.delete_unused_columns
 
-def process(memory_dataframe, cpu_dataframe, execution_date, times):
-    utils.date_time.process_date_time(execution_date, times)
+def process(memory_dataframe, cpu_dataframe, execution_date, logs_data):
+    utils.date_time.process_date_time(execution_date, logs_data)
     
     utils.delete_unused_columns.delete(memory_dataframe)
     utils.delete_unused_columns.delete(cpu_dataframe)
@@ -25,33 +25,33 @@ def process(memory_dataframe, cpu_dataframe, execution_date, times):
     # soma os valores de consumo de cpu já em porcentagem
     cpu_dataframe['total'] = cpu_dataframe.sum(axis=1)
 
-    data = []
+    processed_data = []
     test_round = 1
-    for time in times:
-        start_hour = time['start_time'].split(' ')
-        end_hour = time['end_time'].split(' ')
+    for data in logs_data:
+        start_hour = data['start_time'].split(' ')
+        end_hour = data['end_time'].split(' ')
 
-        memory = round( memory_dataframe.loc[time['start_time']:time['end_time'], 'total'].sum(), 2 )
+        memory = round( memory_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2 )
         exec_time = utils.date_time.diff_hours(start_hour[1], end_hour[1])
-        cpu = round( cpu_dataframe.loc[time['start_time']:time['end_time'], 'total'].sum(), 2)
+        cpu = round( cpu_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2)
 
         memory_per_second = round( (memory / exec_time) if exec_time > 0 else memory, 2 )
         cpu_per_second = round( (cpu / exec_time) if exec_time > 0 else cpu, 2 )
 
-        d = {
+        obj = {
             "Round": test_round,
             "Status": "F" if test_round > 1 else "P",
-            "MS interrupted": "",
+            "MS interrupted": ', '.join(str(e) for e in data['interrupted_ms'] ),
             "Exec time": exec_time,
             "Memory": memory,
             "Memory per second": memory_per_second,
             "Cpu": cpu,
             "Cpu per second": cpu_per_second,
-            "Total requests": "",
-            "Erro": ""
+            "Total requests": data['total_requests'],
+            "Erro": data['erro']
         }
 
-        data.append(d)
+        processed_data.append(obj)
         test_round += 1
         
-    return data
+    return processed_data

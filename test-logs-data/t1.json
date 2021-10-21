@@ -1,0 +1,99 @@
+[
+    {
+        "start_time": "22:14:38",
+        "end_time": "22:14:41",
+        "interrupted_ms": [
+            "account"
+        ],
+        "total_requests": 28,
+        "erro": "Timeout"
+    },
+    {
+        "start_time": "22:14:57",
+        "end_time": "22:15:42",
+        "interrupted_ms": [
+            "quest"
+        ],
+        "total_requests": 23,
+        "erro": "Bad Gateway"
+    },
+    {
+        "start_time": "22:16:03",
+        "end_time": "22:16:16",
+        "interrupted_ms": [
+            "account",
+            "quest"
+        ],
+        "total_requests": 28,
+        "erro": "Bad Gateway"
+    },
+    {
+        "start_time": "22:16:31",
+        "end_time": "22:17:16",
+        "interrupted_ms": [
+            "mongo-quest"
+        ],
+        "total_requests": 23,
+        "erro": "Timeout"
+    },
+    {
+        "start_time": "22:18:06",
+        "end_time": "22:18:13",
+        "interrupted_ms": [
+            "mongo-quest",
+            "account"
+        ],
+        "total_requests": 28,
+        "erro": "Bad Gateway"
+    },
+    {
+        "start_time": "22:18:59",
+        "end_time": "22:19:15",
+        "interrupted_ms": [
+            "mongo-quest",
+            "quest"
+        ],
+        "total_requests": 10,
+        "erro": "Bad Gateway"
+    },
+    {
+        "start_time": "22:20:05",
+        "end_time": "22:20:17",
+        "interrupted_ms": [
+            "mongo-quest",
+            "account",
+            "quest"
+        ],
+        "total_requests": 28,
+        "erro": "Timeout"
+    },
+    {
+        "start_time": "22:21:00",
+        "end_time": "22:22:05",
+        "interrupted_ms": [
+            "mongo-account"
+        ],
+        "total_requests": 11,
+        "erro": "Timeout"
+    },
+    {
+        "start_time": "22:23:09",
+        "end_time": "22:24:13",
+        "interrupted_ms": [
+            "mongo-account",
+            "account"
+        ],
+        "total_requests": 11,
+        "erro": "Timeout"
+    },
+    {
+        "start_time": "22:25:15",
+        "end_time": "22:25:30",
+        "interrupted_ms": [
+            "mongo-account",
+            "quest"
+        ],
+        "total_requests": 10,
+        "erro": "Timeout"
+    }
+]
