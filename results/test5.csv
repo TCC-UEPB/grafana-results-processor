@@ -1,0 +1,17 @@
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+0,P,,1.0,0.94,0.94,96.1,96.1,7,
+1,P,mongo-food,10.0,4.55,0.45,59.47,5.95,7,
+2,F,food,10.0,4.27,0.43,64.05,6.4,7,Bad Gateway
+3,F,"mongo-food, food",11.0,3.91,0.36,50.09,4.55,7,Bad Gateway
+4,F,account,10.0,4.36,0.44,72.29,7.23,7,Unauthorized
+5,F,"mongo-food, account",10.0,3.71,0.37,37.13,3.71,7,Unauthorized
+6,F,"account, food",10.0,3.42,0.34,71.34,7.13,7,Unauthorized
+7,F,"mongo-food, account, food",11.0,3.01,0.27,47.61,4.33,7,Unauthorized
+8,F,mongo-account,0.0,0.41,0.41,6.79,6.79,1,Timeout
+9,F,"mongo-account, mongo-food",0.0,0.0,0.0,0.0,0.0,0,Timeout
+10,F,"mongo-account, food",0.0,0.33,0.33,3.83,3.83,1,Timeout
+11,F,"mongo-account, mongo-food, food",10.0,3.73,0.37,172.56,17.26,1,Timeout
+12,F,"mongo-account, account",0.0,0.0,0.0,0.0,0.0,0,Unauthorized
+13,F,"mongo-account, mongo-food, account",0.0,0.0,0.0,0.0,0.0,0,Timeout
+14,F,"mongo-account, account, food",10.0,2.79,0.28,56.21,5.62,1,Unauthorized
+15,F,"mongo-account, mongo-food, account, food",0.0,0.0,0.0,0.0,0.0,0,Timeout

@@ -1,0 +1,17 @@
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+0,P,,1.0,0.92,0.92,23.08,23.08,6,
+1,F,account,10.0,4.35,0.43,62.4,6.24,6,Unauthorized
+2,F,mongo-gamification,1.0,0.82,0.82,9.15,9.15,6,socket hang up
+3,F,"account, mongo-gamification",10.0,3.7,0.37,41.11,4.11,6,Unauthorized
+4,F,mongo-account,0.0,0.0,0.0,0.0,0.0,0,Timeout
+5,F,"mongo-account, account",0.0,0.0,0.0,0.0,0.0,0,Timeout
+6,F,"mongo-account, mongo-gamification",0.0,0.0,0.0,0.0,0.0,0,Timeout
+7,F,"mongo-account, mongo-gamification, account",0.0,0.0,0.0,0.0,0.0,0,Timeout
+8,F,gamification,6.0,2.79,0.46,36.74,6.12,6,Bad Gateway
+9,F,"account, gamification",10.0,3.56,0.36,51.99,5.2,6,Unauthorized
+10,F,"mongo-gamification, gamification",6.0,2.33,0.39,38.21,6.37,6,Bad Gateway
+11,F,"mongo-gamification, account, gamification",10.0,2.82,0.28,42.45,4.24,6,Unauthorized
+12,F,"mongo-account, gamification",0.0,0.0,0.0,0.0,0.0,0,Timeout
+13,F,"mongo-account, account, gamification",0.0,0.0,0.0,0.0,0.0,0,Timeout
+14,F,"mongo-account, mongo-gamification, gamification",0.0,0.0,0.0,0.0,0.0,0,Timeout
+15,F,"mongo-account, mongo-gamification, account, gamification",0.0,0.0,0.0,0.0,0.0,0,Timeout

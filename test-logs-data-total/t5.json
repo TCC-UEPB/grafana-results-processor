@@ -2,7 +2,7 @@
     {
         "round": 0,
         "start_time": "16:05:09",
-        "end_time": "16:05:10",
+        "end_time": "16:05:14",
         "interrupted_ms": [],
         "total_requests": 7,
         "erro": "",
@@ -10,8 +10,8 @@
     },
     {
         "round": 1,
-        "start_time": "16:05:56",
-        "end_time": "16:06:06",
+        "start_time": "16:05:14",
+        "end_time": "16:06:11",
         "interrupted_ms": [
             "mongo-food"
         ],
@@ -21,8 +21,8 @@
     },
     {
         "round": 2,
-        "start_time": "16:06:23",
-        "end_time": "16:06:33",
+        "start_time": "16:06:11",
+        "end_time": "16:06:36",
         "interrupted_ms": [
             "food"
         ],
@@ -32,8 +32,8 @@
     },
     {
         "round": 3,
-        "start_time": "16:07:19",
-        "end_time": "16:07:30",
+        "start_time": "16:06:36",
+        "end_time": "16:07:34",
         "interrupted_ms": [
             "mongo-food",
             "food"
@@ -44,8 +44,8 @@
     },
     {
         "round": 4,
-        "start_time": "16:07:46",
-        "end_time": "16:07:56",
+        "start_time": "16:07:34",
+        "end_time": "16:07:59",
         "interrupted_ms": [
             "account"
         ],
@@ -55,8 +55,8 @@
     },
     {
         "round": 5,
-        "start_time": "16:08:42",
-        "end_time": "16:08:52",
+        "start_time": "16:07:59",
+        "end_time": "16:08:56",
         "interrupted_ms": [
             "mongo-food",
             "account"
@@ -67,8 +67,8 @@
     },
     {
         "round": 6,
-        "start_time": "16:09:08",
-        "end_time": "16:09:18",
+        "start_time": "16:08:56",
+        "end_time": "16:09:20",
         "interrupted_ms": [
             "account",
             "food"
@@ -79,8 +79,8 @@
     },
     {
         "round": 7,
-        "start_time": "16:10:02",
-        "end_time": "16:10:13",
+        "start_time": "16:09:20",
+        "end_time": "16:10:17",
         "interrupted_ms": [
             "mongo-food",
             "account",
@@ -92,8 +92,8 @@
     },
     {
         "round": 8,
-        "start_time": "16:11:00",
-        "end_time": "16:11:00",
+        "start_time": "16:10:17",
+        "end_time": "16:11:23",
         "interrupted_ms": [
             "mongo-account"
         ],
@@ -103,8 +103,8 @@
     },
     {
         "round": 9,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:11:23",
+        "end_time": "16:12:28",
         "interrupted_ms": [
             "mongo-account",
             "mongo-food"
@@ -115,8 +115,8 @@
     },
     {
         "round": 10,
-        "start_time": "16:13:11",
-        "end_time": "16:13:11",
+        "start_time": "16:12:28",
+        "end_time": "16:13:33",
         "interrupted_ms": [
             "mongo-account",
             "food"
@@ -127,8 +127,8 @@
     },
     {
         "round": 11,
-        "start_time": "16:15:22",
-        "end_time": "16:15:32",
+        "start_time": "16:13:33",
+        "end_time": "16:14:40",
         "interrupted_ms": [
             "mongo-account",
             "mongo-food",
@@ -140,8 +140,8 @@
     },
     {
         "round": 12,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:14:40",
+        "end_time": "16:15:34",
         "interrupted_ms": [
             "mongo-account",
             "account"
@@ -152,8 +152,8 @@
     },
     {
         "round": 13,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:15:34",
+        "end_time": "16:16:39",
         "interrupted_ms": [
             "mongo-account",
             "mongo-food",
@@ -165,7 +165,7 @@
     },
     {
         "round": 14,
-        "start_time": "16:17:22",
+        "start_time": "16:16:39",
         "end_time": "16:17:32",
         "interrupted_ms": [
             "mongo-account",
@@ -178,8 +178,8 @@
     },
     {
         "round": 15,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:17:32",
+        "end_time": "16:18:34",
         "interrupted_ms": [
             "mongo-account",
             "mongo-food",
