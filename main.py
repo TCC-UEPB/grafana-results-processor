@@ -4,8 +4,8 @@ import json
 import processor
 
 mem_list = []
-number_test_cases = 2
-execution_dates = ["2021-10-06", "2021-10-18", "2021-10-19", "3", "4", "5", "2021-10-13"]
+number_test_cases = 4
+execution_dates = ["2021-10-06", "2021-10-21", "2021-10-13", "2021-10-21", "4", "5", "6"]
 
 for i in range(number_test_cases):
     memory = pd.read_excel(f"memory-data/Memory-Usage-T{i}.xlsx")

@@ -26,21 +26,25 @@ def process(memory_dataframe, cpu_dataframe, execution_date, logs_data):
     cpu_dataframe['total'] = cpu_dataframe.sum(axis=1)
 
     processed_data = []
-    test_round = 1
     for data in logs_data:
         start_hour = data['start_time'].split(' ')
         end_hour = data['end_time'].split(' ')
 
-        memory = round( memory_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2 )
-        exec_time = utils.date_time.diff_hours(start_hour[1], end_hour[1])
-        cpu = round( cpu_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2)
+        if(start_hour[1]):
+            memory = round( memory_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2 )
+            exec_time = utils.date_time.diff_hours(start_hour[1], end_hour[1])
+            cpu = round( cpu_dataframe.loc[data['start_time']:data['end_time'], 'total'].sum(), 2)
+        else:
+            memory = exec_time = cpu = 0
 
         memory_per_second = round( (memory / exec_time) if exec_time > 0 else memory, 2 )
         cpu_per_second = round( (cpu / exec_time) if exec_time > 0 else cpu, 2 )
+        status = data['status']
+        test_round = data['round']
 
         obj = {
             "Round": test_round,
-            "Status": "F" if test_round > 1 else "P",
+            "Status": status,
             "MS interrupted": ', '.join(str(e) for e in data['interrupted_ms'] ),
             "Exec time": exec_time,
             "Memory": memory,
@@ -52,6 +56,5 @@ def process(memory_dataframe, cpu_dataframe, execution_date, logs_data):
         }
 
         processed_data.append(obj)
-        test_round += 1
         
     return processed_data
