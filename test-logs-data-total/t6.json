@@ -2,7 +2,7 @@
     {
         "round": 0,
         "start_time": "16:37:11",
-        "end_time": "16:37:13",
+        "end_time": "16:37:16",
         "interrupted_ms": [],
         "total_requests": 17,
         "erro": "",
@@ -10,8 +10,8 @@
     },
     {
         "round": 1,
-        "start_time": "16:37:28",
-        "end_time": "16:38:03",
+        "start_time": "16:37:16",
+        "end_time": "16:38:07",
         "interrupted_ms": [
             "account"
         ],
@@ -21,8 +21,8 @@
     },
     {
         "round": 2,
-        "start_time": "16:38:48",
-        "end_time": "16:38:50",
+        "start_time": "16:38:07",
+        "end_time": "16:39:03",
         "interrupted_ms": [
             "mongo-ds-agent"
         ],
@@ -32,8 +32,8 @@
     },
     {
         "round": 3,
-        "start_time": "16:39:44",
-        "end_time": "16:39:59",
+        "start_time": "16:39:03",
+        "end_time": "16:40:09",
         "interrupted_ms": [
             "mongo-ds-agent",
             "account"
@@ -44,8 +44,8 @@
     },
     {
         "round": 4,
-        "start_time": "16:40:21",
-        "end_time": "16:40:22",
+        "start_time": "16:40:09",
+        "end_time": "16:40:26",
         "interrupted_ms": [
             "redis-ds-agent"
         ],
@@ -55,8 +55,8 @@
     },
     {
         "round": 5,
-        "start_time": "16:40:38",
-        "end_time": "16:41:13",
+        "start_time": "16:40:26",
+        "end_time": "16:41:17",
         "interrupted_ms": [
             "redis-ds-agent",
             "account"
@@ -67,8 +67,8 @@
     },
     {
         "round": 6,
-        "start_time": "16:41:58",
-        "end_time": "16:41:59",
+        "start_time": "16:41:17",
+        "end_time": "16:42:12",
         "interrupted_ms": [
             "mongo-ds-agent",
             "redis-ds-agent"
@@ -79,8 +79,8 @@
     },
     {
         "round": 7,
-        "start_time": "16:42:53",
-        "end_time": "16:43:08",
+        "start_time": "16:42:12",
+        "end_time": "16:43:18",
         "interrupted_ms": [
             "mongo-ds-agent",
             "redis-ds-agent",
@@ -92,8 +92,8 @@
     },
     {
         "round": 8,
-        "start_time": "16:43:29",
-        "end_time": "16:43:35",
+        "start_time": "16:43:18",
+        "end_time": "16:43:38",
         "interrupted_ms": [
             "ds-agent"
         ],
@@ -103,8 +103,8 @@
     },
     {
         "round": 9,
-        "start_time": "16:43:49",
-        "end_time": "16:44:25",
+        "start_time": "16:43:38",
+        "end_time": "16:44:28",
         "interrupted_ms": [
             "account",
             "ds-agent"
@@ -115,8 +115,8 @@
     },
     {
         "round": 10,
-        "start_time": "16:45:09",
-        "end_time": "16:45:15",
+        "start_time": "16:44:28",
+        "end_time": "16:45:17",
         "interrupted_ms": [
             "mongo-ds-agent",
             "ds-agent"
@@ -127,8 +127,8 @@
     },
     {
         "round": 11,
-        "start_time": "16:45:58",
-        "end_time": "16:46:13",
+        "start_time": "16:45:17",
+        "end_time": "16:46:23",
         "interrupted_ms": [
             "mongo-ds-agent",
             "account",
@@ -140,8 +140,8 @@
     },
     {
         "round": 12,
-        "start_time": "16:46:33",
-        "end_time": "16:46:40",
+        "start_time": "16:46:23",
+        "end_time": "16:46:43",
         "interrupted_ms": [
             "redis-ds-agent",
             "ds-agent"
@@ -152,8 +152,8 @@
     },
     {
         "round": 13,
-        "start_time": "16:46:54",
-        "end_time": "16:47:29",
+        "start_time": "16:46:43",
+        "end_time": "16:47:32",
         "interrupted_ms": [
             "redis-ds-agent",
             "account",
@@ -165,8 +165,8 @@
     },
     {
         "round": 14,
-        "start_time": "16:48:1",
-        "end_time": "16:48:20",
+        "start_time": "16:47:32",
+        "end_time": "16:48:22",
         "interrupted_ms": [
             "mongo-ds-agent",
             "redis-ds-agent",
@@ -178,8 +178,8 @@
     },
     {
         "round": 15,
-        "start_time": "16:49:03",
-        "end_time": "16:49:18",
+        "start_time": "16:48:22",
+        "end_time": "16:49:28",
         "interrupted_ms": [
             "mongo-ds-agent",
             "redis-ds-agent",
@@ -192,8 +192,8 @@
     },
     {
         "round": 16,
-        "start_time": "16:50:10",
-        "end_time": "16:50:10",
+        "start_time": "16:49:28",
+        "end_time": "16:50:33",
         "interrupted_ms": [
             "mongo-account"
         ],
@@ -203,8 +203,8 @@
     },
     {
         "round": 17,
-        "start_time": "16:51:15",
-        "end_time": "16:51:30",
+        "start_time": "16:50:33",
+        "end_time": "16:51:38",
         "interrupted_ms": [
             "mongo-account",
             "account"
@@ -215,8 +215,8 @@
     },
     {
         "round": 18,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:51:38",
+        "end_time": "16:52:42",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent"
@@ -227,8 +227,8 @@
     },
     {
         "round": 19,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:52:42",
+        "end_time": "16:53:48",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -240,8 +240,8 @@
     },
     {
         "round": 20,
-        "start_time": "16:54:30",
-        "end_time": "16:54:30",
+        "start_time": "16:53:48",
+        "end_time": "16:54:52",
         "interrupted_ms": [
             "mongo-account",
             "redis-ds-agent"
@@ -252,8 +252,8 @@
     },
     {
         "round": 21,
-        "start_time": "16:55:34",
-        "end_time": "16:55:49",
+        "start_time": "16:54:52",
+        "end_time": "16:55:57",
         "interrupted_ms": [
             "mongo-account",
             "redis-ds-agent",
@@ -265,8 +265,8 @@
     },
     {
         "round": 22,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:55:57",
+        "end_time": "16:57:01",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -278,8 +278,8 @@
     },
     {
         "round": 23,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "16:57:01",
+        "end_time": "16:58:06",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -292,8 +292,8 @@
     },
     {
         "round": 24,
-        "start_time": "16:58:47",
-        "end_time": "16:58:47",
+        "start_time": "16:58:06",
+        "end_time": "16:59:09",
         "interrupted_ms": [
             "mongo-account",
             "ds-agent"
@@ -304,8 +304,8 @@
     },
     {
         "round": 25,
-        "start_time": "16:59:51",
-        "end_time": "17:00:06",
+        "start_time": "16:59:09",
+        "end_time": "17:00:13",
         "interrupted_ms": [
             "mongo-account",
             "account",
@@ -317,8 +317,8 @@
     },
     {
         "round": 26,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "17:00:13",
+        "end_time": "17:01:15",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -330,8 +330,8 @@
     },
     {
         "round": 27,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "17:01:15",
+        "end_time": "17:02:20",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -344,8 +344,8 @@
     },
     {
         "round": 28,
-        "start_time": "17:03:01",
-        "end_time": "17:03:01",
+        "start_time": "17:02:20",
+        "end_time": "17:03:23",
         "interrupted_ms": [
             "mongo-account",
             "redis-ds-agent",
@@ -357,8 +357,8 @@
     },
     {
         "round": 29,
-        "start_time": "17:04:04",
-        "end_time": "17:04:19",
+        "start_time": "17:03:23",
+        "end_time": "17:04:26",
         "interrupted_ms": [
             "mongo-account",
             "redis-ds-agent",
@@ -371,8 +371,8 @@
     },
     {
         "round": 30,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "17:04:26",
+        "end_time": "17:05:29",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",
@@ -385,8 +385,8 @@
     },
     {
         "round": 31,
-        "start_time": "",
-        "end_time": "",
+        "start_time": "17:05:29",
+        "end_time": "17:06:30",
         "interrupted_ms": [
             "mongo-account",
             "mongo-ds-agent",

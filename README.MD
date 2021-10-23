@@ -5,7 +5,7 @@
 - test.case.3 - food-recognition.get001 ✅
 - test.case.4 - gamificationprofiles.post001 ✅
 - test.case.5 - foodqs.patch001 ✅
-- test.case.6 - users.fitbit.auth.revoke.post001
+- test.case.6 - users.fitbit.auth.revoke.post001 ✅
 
 ## Casos onde todos os testes estão falhando, independente do endpoint:
 - notifications ❌

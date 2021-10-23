@@ -68,7 +68,7 @@
     {
         "round": 6,
         "start_time": "20:46:45",
-        "end_time": "20:46:45",
+        "end_time": "20:47:00",
         "interrupted_ms": [
             "mongo-account",
             "missions"
