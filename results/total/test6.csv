@@ -1,4 +1,4 @@
-Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Error
 0,P,,5.0,2.62,0.52,169.69,33.94,17,
 1,F,account,51.0,20.91,0.41,423.14,8.3,17,Unauthorized
 2,F,mongo-ds-agent,56.0,23.93,0.43,315.81,5.64,17,socket hang up

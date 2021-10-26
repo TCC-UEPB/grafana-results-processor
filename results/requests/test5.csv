@@ -1,4 +1,4 @@
-Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Error
 0,P,,1.0,0.94,0.94,96.1,96.1,7,
 1,P,mongo-food,10.0,4.55,0.45,59.47,5.95,7,
 2,F,food,10.0,4.27,0.43,64.05,6.4,7,Bad Gateway

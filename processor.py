@@ -52,7 +52,7 @@ def process(memory_dataframe, cpu_dataframe, execution_date, logs_data):
             "Cpu": cpu,
             "Cpu per second": cpu_per_second,
             "Total requests": data['total_requests'],
-            "Erro": data['erro']
+            "Error": data['erro']
         }
 
         processed_data.append(obj)

@@ -1,4 +1,4 @@
-Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Error
 0,P,,3.0,1.8,0.6,70.25,23.42,36,
 1,F,account,66.0,26.47,0.4,924.54,14.01,23,Timeout
 2,F,quest,69.0,26.58,0.39,519.85,7.53,36,Bad Gateway

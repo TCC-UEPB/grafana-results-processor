@@ -1,4 +1,4 @@
-Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Erro
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Error
 0,P,,5.0,2.77,0.55,68.17,13.63,6,
 1,F,account,57.0,23.04,0.4,340.49,5.97,6,Unauthorized
 2,F,mongo-gamification,57.0,23.65,0.41,284.14,4.98,6,socket hang up
