@@ -1,0 +1,193 @@
+[
+    {
+        "round": 0,
+        "start_time": "15:03:21",
+        "end_time": "15:03:26",
+        "interrupted_ms": [],
+        "total_requests": 6,
+        "erro": "",
+        "status": "P"
+    },
+    {
+        "round": 1,
+        "start_time": "15:03:26",
+        "end_time": "15:04:23",
+        "interrupted_ms": [
+            "account"
+        ],
+        "total_requests": 6,
+        "erro": "Unauthorized",
+        "status": "F"
+    },
+    {
+        "round": 2,
+        "start_time": "15:04:23",
+        "end_time": "15:05:20",
+        "interrupted_ms": [
+            "mongo-gamification"
+        ],
+        "total_requests": 6,
+        "erro": "socket hang up",
+        "status": "F"
+    },
+    {
+        "round": 3,
+        "start_time": "15:05:20",
+        "end_time": "15:06:17",
+        "interrupted_ms": [
+            "account",
+            "mongo-gamification"
+        ],
+        "total_requests": 6,
+        "erro": "Unauthorized",
+        "status": "F"
+    },
+    {
+        "round": 4,
+        "start_time": "15:06:17",
+        "end_time": "15:07:23",
+        "interrupted_ms": [
+            "mongo-account"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 5,
+        "start_time": "15:07:23",
+        "end_time": "15:08:27",
+        "interrupted_ms": [
+            "mongo-account",
+            "account"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 6,
+        "start_time": "15:08:27",
+        "end_time": "15:09:32",
+        "interrupted_ms": [
+            "mongo-account",
+            "mongo-gamification"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 7,
+        "start_time": "15:09:32",
+        "end_time": "15:10:39",
+        "interrupted_ms": [
+            "mongo-account",
+            "mongo-gamification",
+            "account"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 8,
+        "start_time": "15:10:39",
+        "end_time": "15:11:30",
+        "interrupted_ms": [
+            "gamification"
+        ],
+        "total_requests": 6,
+        "erro": "Bad Gateway",
+        "status": "F"
+    },
+    {
+        "round": 9,
+        "start_time": "15:11:30",
+        "end_time": "15:12:26",
+        "interrupted_ms": [
+            "account",
+            "gamification"
+        ],
+        "total_requests": 6,
+        "erro": "Unauthorized",
+        "status": "F"
+    },
+    {
+        "round": 10,
+        "start_time": "15:12:26",
+        "end_time": "15:13:16",
+        "interrupted_ms": [
+            "mongo-gamification",
+            "gamification"
+        ],
+        "total_requests": 6,
+        "erro": "Bad Gateway",
+        "status": "F"
+    },
+    {
+        "round": 11,
+        "start_time": "15:13:16",
+        "end_time": "15:14:12",
+        "interrupted_ms": [
+            "mongo-gamification",
+            "account",
+            "gamification"
+        ],
+        "total_requests": 6,
+        "erro": "Unauthorized",
+        "status": "F"
+    },
+    {
+        "round": 12,
+        "start_time": "15:14:12",
+        "end_time": "15:15:17",
+        "interrupted_ms": [
+            "mongo-account",
+            "gamification"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 13,
+        "start_time": "15:15:17",
+        "end_time": "15:16:22",
+        "interrupted_ms": [
+            "mongo-account",
+            "account",
+            "gamification"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 14,
+        "start_time": "15:16:22",
+        "end_time": "15:17:25",
+        "interrupted_ms": [
+            "mongo-account",
+            "mongo-gamification",
+            "gamification"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    },
+    {
+        "round": 15,
+        "start_time": "15:17:25",
+        "end_time": "15:18:27",
+        "interrupted_ms": [
+            "mongo-account",
+            "mongo-gamification",
+            "account",
+            "gamification"
+        ],
+        "total_requests": 0,
+        "erro": "Timeout",
+        "status": "F"
+    }
+]

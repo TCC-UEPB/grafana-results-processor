@@ -1,0 +1,17 @@
+Round,Status,MS interrupted,Exec time,Memory,Memory per second,Cpu,Cpu per second,Total requests,Error
+0,P,,5.0,2.77,0.55,68.17,13.63,6,
+1,F,account,57.0,23.04,0.4,340.49,5.97,6,Unauthorized
+2,F,mongo-gamification,57.0,23.65,0.41,284.14,4.98,6,socket hang up
+3,F,"account, mongo-gamification",57.0,19.5,0.34,273.11,4.79,6,Unauthorized
+4,F,mongo-account,66.0,27.08,0.41,315.39,4.78,0,Timeout
+5,F,"mongo-account, account",64.0,21.6,0.34,265.03,4.14,0,Timeout
+6,F,"mongo-account, mongo-gamification",65.0,22.4,0.34,265.2,4.08,0,Timeout
+7,F,"mongo-account, mongo-gamification, account",67.0,18.38,0.27,216.03,3.22,0,Timeout
+8,F,gamification,51.0,20.71,0.41,235.75,4.62,6,Bad Gateway
+9,F,"account, gamification",56.0,18.7,0.33,315.58,5.64,6,Unauthorized
+10,F,"mongo-gamification, gamification",50.0,16.9,0.34,256.09,5.12,6,Bad Gateway
+11,F,"mongo-gamification, account, gamification",56.0,14.76,0.26,281.31,5.02,6,Unauthorized
+12,F,"mongo-account, gamification",65.0,21.55,0.33,290.26,4.47,0,Timeout
+13,F,"mongo-account, account, gamification",65.0,16.8,0.26,271.51,4.18,0,Timeout
+14,F,"mongo-account, mongo-gamification, gamification",63.0,16.68,0.26,258.96,4.11,0,Timeout
+15,F,"mongo-account, mongo-gamification, account, gamification",62.0,11.98,0.19,212.61,3.43,0,Timeout
