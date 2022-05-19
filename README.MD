@@ -15,7 +15,7 @@
 * 📁 data/cpu ➡️ dados de cpu (%) obtidos do Grafana durante a execução dos testes.
 * 📁 data/memory ➡️ dados de memória obtidos do Grafana durante a execução dos testes.
 * 📁 data/test-logs ➡️ dados de execução dos testes
-    * 📁 requests/ ➡️ dados que consideram como sendo o tempo de execução dos estes apenas o tempo das requisições logadas na api-gateway.
+    * 📁 requests/ ➡️ dados que consideram como sendo o tempo de execução dos testes apenas o tempo das requisições logadas na api-gateway.
     * 📁 total/ ➡️ dados que consideram como sendo o tempo de execução dos testes o processamento feito pelo SPlat mais o tempo das requisições logadas na api-gateway.
 * 📁 results ➡️ resultado do processamento dos dados. 
 * 📁 utils ➡️ arquivos de suporte que são utilizados no projeto.
